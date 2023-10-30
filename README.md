@@ -26,7 +26,7 @@
     
     *Using Greedy Decoding*: Output: "John spent 80 on shirts and 45 on hats. He spent $125 in total."
     
-  - **Contrasive Decoding**
+  - **Contrastive Decoding**
     
   
   ![](originalCD.png)
