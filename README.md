@@ -34,7 +34,7 @@
   
 - **Approach**
   
-  ![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-29-23-31-56-image.png?msec=1698640317001)
+  ![](resultoverview.png)
   
   - **Algebraic word problems**
     
@@ -45,9 +45,9 @@
 
 ### Architecture overview
 
-![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-29-23-29-47-image.png?msec=1698640187188)
+![](CD.png)
 
-![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-29-23-54-32-image.png?msec=1698641672566)
+![](CDarchitecture.png)
 
 - **Determine α-mask**
   
@@ -66,7 +66,7 @@
     
 - **Algorithm: Contrastive Decoding(expert_logits, amateur_logits, alpha, beta)**
   
-  ![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-30-00-13-20-image.png?msec=1698642800524)
+  ![](psedocode.png)
   
   - Input:
     
@@ -104,23 +104,23 @@
 
 ### Experiments
 
-![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-30-00-18-03-image.png?msec=1698643083993)
+![](amateur.png)
 
 - **Arithmetic reasoning**
 
-![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-30-00-18-59-image.png?msec=1698643139372)
+![](Table2.png)
 
 We conjecture that because contrastive decoding amplifies skills that the expert has learned better than the amateur, it cannot help on tasks that are well beyond the expert’s ability.
 
 - **Commonsense reasoning**
 
-![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-30-00-19-10-image.png?msec=1698643150748)
+![](Table3.png)
 
 Results are more mixed for CommonsenseQA and StrategyQA
 
 - **Contrastive ranking**
 
-![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-30-00-20-24-image.png?msec=1698643224392)
+![](table4.png)
 
 Notably, on HellaSwag CD leads LLaMA-65B to score 88.0, which outperforms LLaMA-2
 (85.3), GPT-3.5 (85.5)and PALM 2-Large (86.8).
