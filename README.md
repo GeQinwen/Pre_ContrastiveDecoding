@@ -175,4 +175,5 @@ Alisa Liu, Maarten Sap, Ximing Lu, Swabha Swayamdipta, Chandra Bhagavatula, Noah
 Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training verifiers to solve math word problems, 2021.
 
 ### Video
-[](https://youtu.be/1pJr0FMWwbk)
+
+[YouTube](https://youtu.be/1pJr0FMWwbk)
