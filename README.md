@@ -29,7 +29,8 @@
   - **Contrasive Decoding**
     
   
-  ![](file:///Users/geqinwen/Library/Application%20Support/marktext/images/2023-10-30-02-01-58-image.png?msec=1698649318696)
+  ![](originalCD.png)
+  
   
 - **Approach**
   
